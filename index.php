@@ -39,7 +39,6 @@ error_reporting(E_ALL);
                   array_count_values($array);
                  print_r(array_count_values($array));
 
-
 //               sort($array);
 //               array_count_values($array);
 //               $aux = array();
