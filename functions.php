@@ -21,4 +21,23 @@
     }
 
 
+    function removeDups($arr)
+    {
 
+//        for ($i = 0; $i < sizeof($arr)-1; $i++) {
+//
+//            for ($j = $i + 1; $j < sizeof($arr); $j++) {
+//
+//                if ($arr[$j] == $arr[$i]) {
+//
+//                    unset($arr[$j]);
+//                }
+//            }
+//        }
+//        return "<p> $arr </p>";
+        array_unique($arr);
+        $arr = implode(',',$arr);
+        return "<p>".$arr."</p>";
+
+
+    }

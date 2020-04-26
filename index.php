@@ -31,6 +31,7 @@ error_reporting(E_ALL);
             include 'functions.php';
             printArr($numbers);
             echo largest($numbers);
+            echo removeDups($numbers);
 
       ?>
 </body>
