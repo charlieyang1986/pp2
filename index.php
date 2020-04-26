@@ -33,6 +33,25 @@ error_reporting(E_ALL);
             echo largest($numbers);
             echo removeDups($numbers);
 
+           function distribution($array){
+
+                 sort($array);
+                  array_count_values($array);
+                 print_r(array_count_values($array));
+
+
+//               sort($array);
+//               array_count_values($array);
+//               $aux = array();
+//               foreach($array as $key => $value){
+//                   $aux[] = "$key . =>.$value";
+//
+//               }
+//               return implode(',',$aux);
+
+           }
+            distribution($numbers);
+
       ?>
 </body>
 </html>
