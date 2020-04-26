@@ -29,6 +29,9 @@ error_reporting(E_ALL);
            $numbers = Array(7,9,8,9,8,8,6);
 
             include 'functions.php';
+            printArr($numbers);
+            echo largest($numbers);
+
       ?>
 </body>
 </html>

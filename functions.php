@@ -6,6 +6,19 @@
                   echo "<p>$item</p><br/>";
             }
     }
-       printArr($numbers);
 
-?>
+
+    function largest($arr){
+        $max = 0;
+        foreach($arr as $item){
+
+            if($item > $max){
+                  $max = $item;
+            }
+
+        }
+        return "<p>Largest value is $max </p>";
+    }
+
+
+
